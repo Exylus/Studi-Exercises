@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#home" class="nav-link active">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sections" class="nav-link">Sections</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about-us" class="nav-link">Qui sommes-nous?</a>
+            </li>
+            <li class="nav-item">
+                <a href="#join-us" class="nav-link">Nous rejoindre</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact-us" class="nav-link">Contactez-nous</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Diapo 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Diapo 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Diapo 3"></button>
+                </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active w-100" data-bs-interval="5000" data-bs-ride="carousel">
+                <img src="carousel1.jpeg" class="d-block w-100" alt="benevoles">
+                <div class="carousel-caption d-block">
+                    <h2>Benevoles en action!</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn btn-primary mb-5">Voir plus</a>
+                </div>
+            </div>
+            <div class="carousel-item w-100" data-bs-interval="5000" data-bs-ride="carousel">
+                <img src="carousel2.webp" class="d-block w-100" alt="benevoles">
+                <div class="carousel-caption d-block justify-content-end">
+                    <h2>Benevoles en action!</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam error quibusdam, animi ipsa
+                       possimus vel reprehenderit nostrum dignissimos rem voluptates illo, quos ipsam pariatur,
+                       excepturi cumque asperiores eveniet in laudantium.</p>
+                    <a href="#" class="btn btn-primary mb-5">Voir plus</a>
+                </div>
+            </div>
+            <div class="carousel-item w-100" data-bs-interval="5000" data-bs-ride="carousel">
+                <img src="carousel3.jpg" class="d-block w-100" alt="benevoles">
+                <div class="carousel-caption d-block justify-content-start">
+                    <h2>Benevoles en action!</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam error quibusdam, animi ipsa
+                        possimus vel reprehenderit nostrum dignissimos rem voluptates illo, quos ipsam pariatur,
+                        excepturi cumque asperiores eveniet in laudantium.</p>
+                    <a href="#" class="btn btn-primary mb-5">Voir plus</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target=""></button>
+    </div>
+    <div class="wrapperBenevoles" id="sections">
+        <div class="row p-5 g-3">
+            <div class="col-4">
+                <div class="card">
+                    <img src="Prospector_-_Hovering_mining_on_cliffside_1.jpg" alt="Un prospector qui mine" class="card-img-top" style="height: 350px;">
+                    <h5 class="card-title text-center">Minage</h5>
+                    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptates quae vitae quibusdam, aspernatur beatae
+                        repudiandae possimus tempora dolor repellendus.</p>
+                        <a href="#contact-us" class="btn btn-primary w-50 mx-auto m-3">Rejoindre la section minage</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="XIAN_medium_fighter_saltplanes_4k_AA01-Min.jpg" alt="Un vaisseau alien qui vole" class="card-img-top" style="height: 350px;">
+                    <h5 class="card-title text-center">Combat</h5>
+                    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptates quae vitae quibusdam, aspernatur beatae
+                        repudiandae possimus tempora dolor repellendus.</p>
+                        <a href="#contact-us" class="btn btn-primary w-50 mx-auto m-3">Rejoindre la section securite</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="1200px-Vulture_Salvaging_Concept.jpg" alt="Un vaisseau alien qui vole" class="card-img-top" style="height: 350px;">
+                    <h5 class="card-title text-center">Salvage</h5>
+                    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptates quae vitae quibusdam, aspernatur beatae
+                        repudiandae possimus tempora dolor repellendus.</p>
+                        <a href="#contact-us" class="btn btn-primary w-50 mx-auto m-3">Rejoindre la section salvage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <h3 class="text-center" id="about-us">Qui sommes nous?</h3>
+            <p class="m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque non voluptatibus beatae pariatur nihil, similique
+                assumenda provident rem, possimus quos quas debitis nostrum, sapiente aliquam. Veritatis, voluptates! Facilis ex
+                ipsa sint illo architecto eaque ut eum cumque quia magnam non, veritatis quaerat perspiciatis ratione eligendi
+                sapiente possimus eius molestias hic animi nam, optio, accusantium ullam. Facilis nesciunt ex debitis natus illum
+                doloremque possimus, porro blanditiis non qui laboriosam inventore optio nihil ducimus deleniti sit dicta tempora
+                maiores laudantium dolorem recusandae vero quod. Deserunt nesciunt odit consequatur ab expedita veniam aliquam, sunt
+                illo vitae corrupti, officia incidunt autem eveniet dicta explicabo?</p>
+        </div>
+        <div class="col-4">
+            <div class="accordion" id="accordionSC">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" 
+                                type="button" 
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="true">Comment se deroulent nos sorties?</button>
+                    </h4>
+                    <div 
+                        class="accordion-collapse collapse show" 
+                        id="collapseOne" 
+                        aria-labelledby="headingOne" 
+                        data-bs-parent="#accordionSC">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ducimus ex veniam modi officia perspiciatis sint expedita aliquam officiis itaque. Dicta iure quo veniam maiores repellat quasi est a odit architecto illum, optio rem molestiae tenetur laboriosam similique. Sed aperiam modi dignissimos culpa cum sint cupiditate voluptas fuga aut laborum.
+                        </div>
+                    </div> 
+                </div>
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button" 
+                                type="button" 
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="true">Quels sont nos horaires?</button>
+                    </h4>
+                    <div 
+                        class="accordion-collapse collapse hide" 
+                        id="collapseTwo" 
+                        aria-labelledby="headingTwo" 
+                        data-bs-parent="#accordionSC">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ducimus ex veniam modi officia perspiciatis sint expedita aliquam officiis itaque. Dicta iure quo veniam maiores repellat quasi est a odit architecto illum, optio rem molestiae tenetur laboriosam similique. Sed aperiam modi dignissimos culpa cum sint cupiditate voluptas fuga aut laborum.
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <form action="" method="GET" class="w-25 mx-auto p-5">
+            <fieldset>
+                <legend>Vos coordonnees</legend>
+                <div class="form-group">
+                    <label for="nickname">Pseudo :</label>
+                    <input type="text" id="nickname" name="nicname" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email" class="form-control" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="form-group">
+                    <legend>Message</legend>
+                    <div class="form-group">
+                        <textarea name="message" id="message" cols="50" rows="5"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+            <label for="regles">En envoyant votre message, vous acceptez notre charte.</label>
+            <input type="checkbox" name="regles" id="regles">
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
